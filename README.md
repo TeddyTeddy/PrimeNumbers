@@ -8,8 +8,10 @@ Installation instructions for Ubuntu for Python >= 3.7.4:
 4. This project uses primesieve-python library, which requires g++ installed on your computer
    https://github.com/kimwalisch/primesieve-python
    Follow the instructions, and install g++ & the primesieve-python under the active virtual environment:
+        ```
         sudo apt install g++ python-dev
         pip install primesieve
+        ```
 5. Using requirements.txt install the other required dependencies
 6. Once 5 is done, at the project root, we need to run:
     python prime_number_generator.py
