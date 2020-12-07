@@ -49,3 +49,13 @@ This program is done in 5 hours 45 mins. Note that the program uses a single thr
 If given extra time, one could extend the program using paralel processing in Python:
 https://stackabuse.com/parallel-processing-in-python/
 
+### A note: The max allowed number as users_number is hardcoded in prime_number_generator.py as:
+```
+if __name__ == '__main__':
+    path_to_primes_file = f'{os.getcwd()}{os.sep}PrimeNumbers.txt'
+    with open(path_to_primes_file, 'w') as primes_file:
+        generate_prime_numbers(max_limit=99999999, primes_file=primes_file)  # increase the max_limit and re-run installation step 6
+```
+
+However, note that as the limit increases the file it creates (i.e. PrimeNumbers.txt under the project root)
+gets its size considerably increased. This slows down also the loading the file contents into program memory.
