@@ -8,22 +8,21 @@ Installation instructions for Ubuntu for Python >= 3.7.4:
 4. This project uses primesieve-python library, which requires g++ installed on your computer
    https://github.com/kimwalisch/primesieve-python
    Follow the instructions, and install g++ & the primesieve-python under the active virtual environment:
-   # Ubuntu/Debian
-   sudo apt install g++ python-dev
-   # Python 3.5 or later
-   pip install primesieve
+        sudo apt install g++ python-dev
+        pip install primesieve
 5. Using requirements.txt install the other required dependencies
 6. Once 5 is done, at the project root, we need to run:
     python prime_number_generator.py
 
 Note that step 6 needs to be done only once.
 
-How to run the program:
+### How to run the program:
 
-1. Go to project root in command line, and run:
+Go to project root in command line, and run:
    python prime_factors_solution.py
 
-It will take about 5-10 secs to load up the necessary data into the variables, after that program is ready for use:
+It will take about 5-10 secs to load up the necessary data into the variables, after that program is ready for use.
+Example:
 
 Loading prime numbers...
 Give me a number between 2 and 99999989: 823648463
