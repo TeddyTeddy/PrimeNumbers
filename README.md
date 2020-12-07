@@ -23,7 +23,7 @@ Go to project root in command line, and run:
 
 It will take about 5-10 secs to load up the necessary data into the variables, after that program is ready for use.
 Example:
-
+```
 Loading prime numbers...
 Give me a number between 2 and 99999989: 823648463
 [11, 199, 587, 641]
@@ -40,6 +40,7 @@ Prime factor found: 109
 Prime factor found: 1069
 It took 0.00477242469787597656 seconds to find those
 Do you want to have another iteration? (Y/N): n
+```
 
 The program's output can be verified using:
 https://www.calculatorsoup.com/calculators/math/prime-factors.php
@@ -47,7 +48,4 @@ https://www.calculatorsoup.com/calculators/math/prime-factors.php
 This program is done in 5 hours 45 mins. Note that the program uses a single thread.
 If given extra time, one could extend the program using paralel processing in Python:
 https://stackabuse.com/parallel-processing-in-python/
-
-
-
 
